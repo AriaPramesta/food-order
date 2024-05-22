@@ -1,6 +1,13 @@
 export function Welcome() {
   return (
     <div>
+      <a
+        href="/"
+        className="outline outline-1 outline-black px-4 py-2 rounded-full"
+      >
+        Skip
+      </a>
+
       <div>
         <h1>Welcome to FoodHub</h1>
         <h3>Your favourite foods delivered fast at your door.</h3>
