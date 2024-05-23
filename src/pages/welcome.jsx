@@ -1,6 +1,6 @@
 export function Welcome() {
   return (
-    <div className="w-[375px] h-[812px] px-9 pt-8 bg-[url('/assets/welcome-bg.png')] m-auto shadow-2xl relative text-xs">
+    <div className="w-[375px] h-[812px] px-9 pt-8 bg-[url('/assets/welcome-bg.png')] m-auto shadow-2xl relative text-xs font-plusJakarta">
       <a
         href="/"
         className="w-[55px] h-[32px] text-xs px-3 py-2 font-semibold rounded-full shadow-xl shadow-black text-[#FE724C] ml-[270px] static bg-white "
