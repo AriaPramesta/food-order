@@ -1,6 +1,9 @@
+import LinkSocial from "../components/link-social";
+import Button from "../components/button";
+
 export function Welcome() {
   return (
-    <div className="w-[375px] h-[812px] px-9 pt-8 bg-[url('/assets/welcome-bg.png')] m-auto shadow-2xl relative text-xs font-plusJakarta">
+    <div className="max-w-[375px] min-h-screen px-9 pt-8 bg-[url('/assets/welcome-bg.png')] m-auto shadow-2xl relative text-xs font-plusJakarta">
       <a
         href="/"
         className="w-[55px] h-[32px] text-xs px-3 py-2 font-semibold rounded-full shadow-xl shadow-black text-[#FE724C] ml-[270px] static bg-white "
@@ -28,19 +31,19 @@ export function Welcome() {
       </div>
 
       <div className="mb-[23px] flex gap-2 justify-between">
-        <button className=" px-5 py-2 rounded-full flex gap-1 items-center bg-white shadow-xl shadow-black ">
-          <img src="/assets/facebook.png" />
-          Facebook
-        </button>
-        <button className=" px-5 py-2 rounded-full flex gap-1 items-center bg-white shadow-xl shadow-black ">
-          <img src="/assets/google.png" />
-          Google
-        </button>
+        <LinkSocial urlImg="/assets/facebook.png">Facebook</LinkSocial>
+        <LinkSocial urlImg="/assets/google.png">Google</LinkSocial>
       </div>
 
-      <button className=" outline outline-1 outline-white text-white px-5 py-3 rounded-full w-full bg-slate-400 mb-6 font-semibold">
+      <div>
+        <Button theme="secondary" isFull>
+          Start with email or phone
+        </Button>
+      </div>
+
+      {/* <button className=" outline outline-1 outline-white text-white px-5 py-3 rounded-full w-full bg-slate-400 mb-6 font-semibold">
         Start with email or phone
-      </button>
+      </button> */}
 
       <p className="text-center text-sm">
         Already have account?
