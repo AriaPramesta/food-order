@@ -4,7 +4,7 @@ import LinkSocial from "../components/link-social";
 
 export function SignUp() {
   return (
-    <div className="w-[375px] h-screen px-9 py-16 m-auto shadow-2xl flex flex-col">
+    <div className="w-[375px] min-h-screen px-9 py-16 m-auto shadow-2xl flex flex-col">
       <div className="flex-1">
         <h1 className="font-bold text-3xl py-10">Sign Up</h1>
         <form className="flex flex-col gap-10">
@@ -15,8 +15,8 @@ export function SignUp() {
           <Button theme="primary">Sign Up</Button>
         </form>
         <p className="text-center py-16">
-          Already have an account?{" "}
-          <a href="/welcome" className="text-orange-500 hover:underline">
+          Already have an account?
+          <a href="/login" className="text-orange-500 hover:underline">
             Login
           </a>
         </p>
