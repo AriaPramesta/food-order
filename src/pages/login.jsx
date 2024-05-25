@@ -18,7 +18,9 @@ export function Login() {
           <Input inputType="email" label="Email" inputName="email" />
           <Input inputType="password" label="Password" inputName="password" />
           <a href="">
-            <p className="text-center text-orange-500">Forgot password?</p>
+            <p className="text-center text-orange-500 hover:underline">
+              Forgot password?
+            </p>
           </a>
           <Button theme="primary">Login</Button>
         </form>
@@ -29,7 +31,7 @@ export function Login() {
           <div className="flex-1">
             <div className="h-[1px] border-b border-black"></div>
           </div>
-          <p className="px-5">Sign up with</p>
+          <p className="px-5">Sign in with</p>
           <div className="flex-1">
             <div className="h-[1px] border-b border-black"></div>
           </div>

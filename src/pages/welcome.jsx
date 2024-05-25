@@ -46,7 +46,7 @@ export function Welcome() {
 
         <p className="text-center text-sm mt-10">
           Already have account?
-          <a href="/" className="underline">
+          <a href="/login" className="text-orange-500 hover:underline">
             Sign in
           </a>
         </p>
