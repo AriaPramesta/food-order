@@ -27,7 +27,7 @@ export function Welcome() {
           <div className="flex-1">
             <div className="h-[1px] border-b border-black"></div>
           </div>
-          <p className="px-2">sign in with</p>
+          <p className="px-5">sign in with</p>
           <div className="flex-1">
             <div className="h-[1px] border-b border-black"></div>
           </div>

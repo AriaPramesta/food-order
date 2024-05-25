@@ -9,7 +9,7 @@ const Input = ({ label, inputType, inputName }) => {
         type={inputType}
         id={label}
         name={inputName}
-        className="h-[60px] outline outline-1 outline-gray-500 focus:outline-orange-500 rounded-md p-2 focus:opacity-100"
+        className="h-[60px] outline outline-1 outline-gray-500 focus:outline-orange-500 rounded-lg p-2"
       />
     </div>
   );
