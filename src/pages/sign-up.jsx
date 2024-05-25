@@ -4,10 +4,10 @@ import LinkSocial from "../components/link-social";
 
 export function SignUp() {
   return (
-    <div className="w-[375px] min-h-screen px-9 py-16 m-auto shadow-2xl flex flex-col">
-      <div className="flex-1">
+    <div className="w-[375px] min-h-screen px-9 py-16 m-auto shadow-2xl">
+      <div className="">
         <h1 className="font-bold text-3xl py-10">Sign Up</h1>
-        <form className="flex flex-col gap-10">
+        <form className="flex flex-col gap-8">
           <Input inputType="text" label="Name" inputName="name" />
           <Input inputType="email" label="Email" inputName="email" />
           <Input inputType="password" label="Password" inputName="password" />
