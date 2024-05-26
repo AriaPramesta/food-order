@@ -9,6 +9,7 @@ import { SignUp } from "./pages/sign-up.jsx";
 import { Login } from "./pages/login.jsx";
 import { Verification } from "./pages/verification.jsx";
 import { Reset } from "./pages/reset-password.jsx";
+import { Registration } from "./pages/registration.jsx";
 
 const router = createBrowserRouter([
   {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
   {
     path: "/reset-password",
     element: <Reset />,
+  },
+  {
+    path: "/registration",
+    element: <Registration />,
   },
 ]);
 
