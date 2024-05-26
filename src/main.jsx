@@ -8,6 +8,7 @@ import { Welcome } from "./pages/welcome.jsx";
 import { SignUp } from "./pages/sign-up.jsx";
 import { Login } from "./pages/login.jsx";
 import { Verification } from "./pages/verification.jsx";
+import { Reset } from "./pages/reset-password.jsx";
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
   {
     path: "/verification",
     element: <Verification />,
+  },
+  {
+    path: "/reset-password",
+    element: <Reset />,
   },
 ]);
 
