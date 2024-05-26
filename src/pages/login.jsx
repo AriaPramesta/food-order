@@ -1,16 +1,12 @@
 import Input from "../components/input";
 import Button from "../components/button";
 import LinkSocial from "../components/link-social";
+import BackButton from "../components/back-button";
 
 export function Login() {
   return (
-    <div className="w-[375px] min-h-screen px-9 py-16 m-auto shadow-2xl">
-      <a
-        href="/signup"
-        className=" bg-slate-100 px-4 py-2 rounded-xl shadow-xl hover:bg-slate-200 "
-      >
-        &lt;
-      </a>
+    <div className="w-[375px] min-h-screen px-9 py-14 m-auto shadow-2xl bg-[url('./assets/background.png')] bg-cover">
+      <BackButton url="/signup" />
 
       <div className="mb-10">
         <h1 className="font-bold text-3xl py-10">Login</h1>
@@ -18,7 +14,7 @@ export function Login() {
           <Input inputType="email" label="Email" inputName="email" />
           <Input inputType="password" label="Password" inputName="password" />
           <a href="">
-            <p className="text-center text-orange-500 hover:underline">
+            <p className="text-center text-orange-500 hover:underline text-sm">
               Forgot password?
             </p>
           </a>
@@ -27,7 +23,7 @@ export function Login() {
       </div>
 
       <div>
-        <div className="flex items-center">
+        <div className="flex items-center text-sm">
           <div className="flex-1">
             <div className="h-[1px] border-b border-black"></div>
           </div>

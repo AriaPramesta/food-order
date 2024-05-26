@@ -7,6 +7,7 @@ import "./index.css";
 import { Welcome } from "./pages/welcome.jsx";
 import { SignUp } from "./pages/sign-up.jsx";
 import { Login } from "./pages/login.jsx";
+import { Verification } from "./pages/verification.jsx";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: "/login",
     element: <Login />,
+  },
+  {
+    path: "/verification",
+    element: <Verification />,
   },
 ]);
 
